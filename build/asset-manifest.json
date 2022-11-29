@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/doughjoe-pizza/static/css/main.37f978f8.css",
-    "main.js": "/doughjoe-pizza/static/js/main.b2f7085c.js",
+    "main.css": "/doughjoe-pizza/static/css/main.9d7a454c.css",
+    "main.js": "/doughjoe-pizza/static/js/main.9e0e730c.js",
     "static/media/bg.png": "/doughjoe-pizza/static/media/bg.5f8da1f9e0d6ba1420d5.png",
     "static/media/pizzaPic.png": "/doughjoe-pizza/static/media/pizzaPic.a1e33ee3c69cdc2494c3.png",
     "static/media/dojopza.png": "/doughjoe-pizza/static/media/dojopza.827a9e9a9479cbeda354.png",
@@ -19,11 +19,11 @@
     "static/media/pizza_ham1.png": "/doughjoe-pizza/static/media/pizza_ham1.e980d92dd8a7cb3da984.png",
     "static/media/pizza_ham2.png": "/doughjoe-pizza/static/media/pizza_ham2.454b01b155e443563de1.png",
     "index.html": "/doughjoe-pizza/index.html",
-    "main.37f978f8.css.map": "/doughjoe-pizza/static/css/main.37f978f8.css.map",
-    "main.b2f7085c.js.map": "/doughjoe-pizza/static/js/main.b2f7085c.js.map"
+    "main.9d7a454c.css.map": "/doughjoe-pizza/static/css/main.9d7a454c.css.map",
+    "main.9e0e730c.js.map": "/doughjoe-pizza/static/js/main.9e0e730c.js.map"
   },
   "entrypoints": [
-    "static/css/main.37f978f8.css",
-    "static/js/main.b2f7085c.js"
+    "static/css/main.9d7a454c.css",
+    "static/js/main.9e0e730c.js"
   ]
 }
