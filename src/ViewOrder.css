@@ -1,0 +1,29 @@
+.pizzaBox {
+  display: inline-block;
+  border-radius: 5px;
+  border: 1px solid grey;
+  transition: 0.5s;
+  width: 100px;
+  height: 50px;
+  background-image: url("./img/pizzaPic.png");
+  background-size: 100px;
+  
+}
+.pizzaBox:hover {
+  opacity: 0.8;
+}
+.pizzaLink {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.boldText {
+  font-weight: bold;
+}
+.viewCard {
+  width: 18rem;
+  margin-top: 15px;
+}
+.pizzaBase{
+  width: 140px;
+}

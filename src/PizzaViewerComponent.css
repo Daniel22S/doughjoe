@@ -1,0 +1,41 @@
+
+
+.pizzaViewer {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  left: 0;
+}
+
+.pizzaBaseViewer {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  left: 0;
+}
+
+.pizzaCheese {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  left: 0;
+}
+
+.pizzaHam {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  left: 0;
+}
+
+.pizzaMushroom {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 0;
+  left: 0;
+}

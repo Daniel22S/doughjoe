@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/doughjoe-pizza/static/css/main.37f978f8.css",
+    "main.js": "/doughjoe-pizza/static/js/main.b2f7085c.js",
+    "static/media/bg.png": "/doughjoe-pizza/static/media/bg.5f8da1f9e0d6ba1420d5.png",
+    "static/media/pizzaPic.png": "/doughjoe-pizza/static/media/pizzaPic.a1e33ee3c69cdc2494c3.png",
+    "static/media/dojopza.png": "/doughjoe-pizza/static/media/dojopza.827a9e9a9479cbeda354.png",
+    "static/media/pizza_stuffed-crust.png": "/doughjoe-pizza/static/media/pizza_stuffed-crust.53ce912f9a7e6bf47526.png",
+    "static/media/pizza_tom2.png": "/doughjoe-pizza/static/media/pizza_tom2.a3f81f337b825e660d07.png",
+    "static/media/pizza_pin1.png": "/doughjoe-pizza/static/media/pizza_pin1.4158b12565018f35ce87.png",
+    "static/media/pizza_deep-pan.png": "/doughjoe-pizza/static/media/pizza_deep-pan.8aa1ee7b0d8ba0fe97e7.png",
+    "static/media/pizza_pin2.png": "/doughjoe-pizza/static/media/pizza_pin2.d6e550368b51df1ba811.png",
+    "static/media/pizza_mush1.png": "/doughjoe-pizza/static/media/pizza_mush1.dc2fecd5fcd565c3e09d.png",
+    "static/media/pizza_cheese.png": "/doughjoe-pizza/static/media/pizza_cheese.98c0e24685004a6932b3.png",
+    "static/media/pizza_regular-base.png": "/doughjoe-pizza/static/media/pizza_regular-base.02e9b72012a8edc11c98.png",
+    "static/media/pizza_mush2.png": "/doughjoe-pizza/static/media/pizza_mush2.5098d51cde30b1f14145.png",
+    "static/media/pizza_thin-crust.png": "/doughjoe-pizza/static/media/pizza_thin-crust.7d4977a5a3b0b16629af.png",
+    "static/media/pizza_tom1.png": "/doughjoe-pizza/static/media/pizza_tom1.c1a71175021b4aea33ef.png",
+    "static/media/pizza_ham1.png": "/doughjoe-pizza/static/media/pizza_ham1.e980d92dd8a7cb3da984.png",
+    "static/media/pizza_ham2.png": "/doughjoe-pizza/static/media/pizza_ham2.454b01b155e443563de1.png",
+    "index.html": "/doughjoe-pizza/index.html",
+    "main.37f978f8.css.map": "/doughjoe-pizza/static/css/main.37f978f8.css.map",
+    "main.b2f7085c.js.map": "/doughjoe-pizza/static/js/main.b2f7085c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37f978f8.css",
+    "static/js/main.b2f7085c.js"
+  ]
+}
