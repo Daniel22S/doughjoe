@@ -9,3 +9,6 @@ body {
     display: inline;
     width: 300px;
 }
+.portfolio-link {
+    padding-right: 10px;
+}
