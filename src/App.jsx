@@ -30,19 +30,19 @@ const App = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Link className="nav-link" to="/">
+            <Link className="nav-link" to="/doughjoe-pizza/">
               Home
             </Link>
-            <Link className="nav-link" to="/orders">
+            <Link className="nav-link" to="/doughjoe-pizza/orders">
               Orders
             </Link>
-            <Link className="nav-link" to="/createpizza">
+            <Link className="nav-link" to="/doughjoe-pizza/createpizza">
               Create Pizza
             </Link>
-            <Link className="nav-link" to="/basket">
+            <Link className="nav-link" to="/doughjoe-pizza/basket">
               Basket
             </Link>
-            <Link className="nav-link" to="/Checkout">
+            <Link className="nav-link" to="/doughjoe-pizza/Checkout">
               Checkout
             </Link>
           </Nav>
@@ -54,7 +54,7 @@ const App = () => {
 
       <Routes>
         <Route
-          path="/"
+          path="/doughjoe-pizza/"
           element={
             <div className="homePageBasket">
               <Basket
@@ -67,15 +67,15 @@ const App = () => {
         />
         <Route path="/orders" element={<Orders orders={orders} />} />
         <Route
-          path="/vieworder/:orderId"
+          path="/doughjoe-pizza/vieworder/:orderId"
           element={<ViewOrder orders={orders} />}
         />
         <Route
-          path="/vieworder/:orderId/:pizzaId"
+          path="/doughjoe-pizza/vieworder/:orderId/:pizzaId"
           element={<ViewPizza orders={orders} />}
         />
         <Route
-          path="/createpizza"
+          path="/doughjoe-pizza/createpizza"
           element={
             <CreatePizza
               basket={basket}
@@ -86,7 +86,7 @@ const App = () => {
           }
         />
         <Route
-          path="/basket"
+          path="/doughjoe-pizza/basket"
           element={
             <Basket
               basket={basket}
@@ -96,7 +96,7 @@ const App = () => {
           }
         />
         <Route
-          path="/Checkout"
+          path="/doughjoe-pizza/Checkout"
           element={
             <Checkout
               basket={basket}
