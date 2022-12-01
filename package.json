@@ -2,7 +2,7 @@
   "name": "default-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://daniel22s.github.io/doughjoe-pizza",
+  "homepage": "https://dans328.github.io/doughjoe-pizza",
   "dependencies": {
     "@babel/preset-env": "^7.19.1",
     "@testing-library/jest-dom": "^5.16.5",

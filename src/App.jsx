@@ -48,7 +48,7 @@ const App = () => {
           </Nav>
         </Navbar.Collapse>
             <Navbar.Text >
-              <a className="portfolio-link" href="https://daniel22s.github.io/portfolio">Back to Portfolio</a>
+              <a className="portfolio-link" href="https://dans328.github.io/portfolio">Back to Portfolio</a>
             </Navbar.Text>
       </Navbar>
 
