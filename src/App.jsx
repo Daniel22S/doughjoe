@@ -48,7 +48,7 @@ const App = () => {
           </Nav>
         </Navbar.Collapse>
             <Navbar.Text >
-              <small>Made by <a className="portfolio-link" href="https://dans328.github.io/portfolio">dans328</a> </small>
+              <small><a className="portfolio-link" href="https://dans328.github.io/portfolio">My Portfolio</a> </small>
             </Navbar.Text>
       </Navbar>
 
