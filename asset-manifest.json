@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/doughjoe-pizza/static/css/main.9d7a454c.css",
-    "main.js": "/doughjoe-pizza/static/js/main.5530a7f2.js",
+    "main.js": "/doughjoe-pizza/static/js/main.8ced0dc7.js",
     "static/media/bg.png": "/doughjoe-pizza/static/media/bg.5f8da1f9e0d6ba1420d5.png",
     "static/media/pizzaPic.png": "/doughjoe-pizza/static/media/pizzaPic.a1e33ee3c69cdc2494c3.png",
     "static/media/dojopza.png": "/doughjoe-pizza/static/media/dojopza.827a9e9a9479cbeda354.png",
@@ -20,10 +20,10 @@
     "static/media/pizza_ham2.png": "/doughjoe-pizza/static/media/pizza_ham2.454b01b155e443563de1.png",
     "index.html": "/doughjoe-pizza/index.html",
     "main.9d7a454c.css.map": "/doughjoe-pizza/static/css/main.9d7a454c.css.map",
-    "main.5530a7f2.js.map": "/doughjoe-pizza/static/js/main.5530a7f2.js.map"
+    "main.8ced0dc7.js.map": "/doughjoe-pizza/static/js/main.8ced0dc7.js.map"
   },
   "entrypoints": [
     "static/css/main.9d7a454c.css",
-    "static/js/main.5530a7f2.js"
+    "static/js/main.8ced0dc7.js"
   ]
 }
