@@ -59,10 +59,10 @@ const App = () => {
           path="/doughjoe-pizza/"
           element={
             <Row>
-              <Col centered>
+              <Col>
                 <Link to="/doughjoe-pizza/createpizza"><img className="homePageLink" src={CreatePizzaImage} alt="create-pizza" /></Link>
               </Col>
-              <Col centered>
+              <Col>
                 <Link to="/doughjoe-pizza/basket"><img className="homePageLink" src={BasketImage} alt="basket" /></Link>
               </Col>
             </Row>
