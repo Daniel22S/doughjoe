@@ -65,7 +65,7 @@ const App = () => {
             </div>
           }
         />
-        <Route path="/orders" element={<Orders orders={orders} />} />
+        <Route path="/doughjoe-pizza/orders" element={<Orders orders={orders} />} />
         <Route
           path="/doughjoe-pizza/vieworder/:orderId"
           element={<ViewOrder orders={orders} />}

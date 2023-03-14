@@ -9,7 +9,7 @@ const Orders = ({ orders }) => {
   const navigate = useNavigate();
 
   const handleOrderClick = (order) => {
-    navigate(`/vieworder/${order.id}`);
+    navigate(`/doughjoe-pizza/vieworder/${order.id}`);
   };
 
   return (
