@@ -1,17 +1,19 @@
 import { useState } from "react";
 import { Routes, Route, Link } from "react-router-dom";
 
-import { Container, Nav, Navbar } from "react-bootstrap";
+import { Container, Nav, Navbar, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 import "./App.css";
 import "./ToppingsList.css";
 import logo from "./img/dojopza.png";
+import CreatePizzaImage from "./img/createpizza.png";
 import CreatePizza from "./CreatePizza";
 import Checkout from "./Checkout.jsx";
 import Orders from "./Orders";
 import ViewOrder from "./ViewOrder";
 import ViewPizza from "./ViewPizza";
+import BasketImage from "./img/basket.png";
 import Basket from "./Basket";
 
 const App = () => {
@@ -56,13 +58,14 @@ const App = () => {
         <Route
           path="/doughjoe-pizza/"
           element={
-            <div className="homePageBasket">
-              <Basket
-                basket={basket}
-                changeBasket={changeBasket}
-                changePizzaToEdit={changePizzaToEdit}
-              />
-            </div>
+            <Row>
+              <Col centered>
+                <Link to="/doughjoe-pizza/createpizza"><img className="homePageLink" src={CreatePizzaImage} alt="create-pizza" /></Link>
+              </Col>
+              <Col centered>
+                <Link to="/doughjoe-pizza/basket"><img className="homePageLink" src={BasketImage} alt="basket" /></Link>
+              </Col>
+            </Row>
           }
         />
         <Route path="/doughjoe-pizza/orders" element={<Orders orders={orders} />} />

@@ -9,6 +9,17 @@ body {
     display: inline;
     width: 300px;
 }
+
+.homePageLink {
+    max-width: 100%;
+}
+
+.homePageLink:hover {
+    background-image: url(./img/bg.png);
+    background-size: cover;
+    border-radius: 25px;
+}
+
 .portfolio-link {
     padding-right: 10px;
 }
