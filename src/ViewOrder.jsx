@@ -26,7 +26,7 @@ const ViewOrder = ({ orders }) => {
           <Link
             className="nav-link"
             key={pizza.id}
-            to={`/vieworder/${orderId}/${pizza.id}`}
+            to={`/doughjoe-pizza/vieworder/${orderId}/${pizza.id}`}
           >
             <div className="pizzaLink">
               <p>{`${listOfBaseTypes[pizza.baseType].id} Pizza`}</p>

@@ -36,14 +36,10 @@ const AxiosNutrition = ({ pizza }) => {
   useEffect(() => {
     changeFetching(true);
     axios
-      .get("https://calorieninjas.p.rapidapi.com/v1/nutrition", {
-        params: {
-          query: getToppingsParams(),
-        },
+      .get("https://api.calorieninjas.com/v1/nutrition?query=" + getToppingsParams(), {
         headers: {
-          "X-RapidAPI-Key":
-            "9427281b45msh84e9ee865d49b95p1c8e41jsn05aab4ed6acc",
-          "X-RapidAPI-Host": "calorieninjas.p.rapidapi.com",
+          "X-Api-Key":
+            "jnN77X77WdMZgBmftes4UA==kMRoUy2dMYuIgY5O"
         },
       })
       .then(({ data }) => {
