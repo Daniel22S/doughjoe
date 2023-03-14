@@ -53,11 +53,7 @@ html{
 }
 
 body{
-    background-image:url("/src/img/bg.png");
-}
-
-#root{
-    background-image:url("/src/img/bg.png");
+    background-image: url(./img/bgnew.jpg);
 }
 
 .whiteText{
