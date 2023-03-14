@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import { Form, Container, Button } from "react-bootstrap";
+import { Form, Container, Button, Row, Col } from "react-bootstrap";
 import toastr from "toastr";
 import "toastr/build/toastr.min.css";
 import { v4 as uuidv4 } from "uuid";
@@ -115,42 +115,48 @@ const CreatePizza = ({
   return (
     <Container>
       <Form>
-        <Form.Group>
-          <Form.Label className = "whiteText">Pizza Base</Form.Label>
-          <Form.Select
-            name="baseType"
-            value={formValues.baseType}
-            onChange={(event) => handleBaseTypeChange(event)}
-          >
-            <option value="regular">
-              Regular (£{calculateBaseCost("regular").toFixed(2)})
-            </option>
-            <option value="thincrust">
-              Thin Crust (£{calculateBaseCost("thincrust").toFixed(2)})
-            </option>
-            <option value="deeppan">
-              Deep Pan (£{calculateBaseCost("deeppan").toFixed(2)})
-            </option>
-            <option value="stuffedcrust">
-              Stuffed Crust (£{calculateBaseCost("stuffedcrust").toFixed(2)})
-            </option>
-          </Form.Select>
-        </Form.Group>
-        <Form.Group>
-          <Form.Label className = "whiteText">Pizza Toppings</Form.Label>
-          <ToppingsList
-            toppings={formValues.toppings}
-            decreaseTopping={decreaseTopping}
-            increaseTopping={increaseTopping}
-          />
-        </Form.Group>
-        <CreatePizzaSummary pizza={formValues} />
-        <Button
-          type="submit"
-          onClick={(event) => addToBasket(event, formValues)}
-        >
-          {pizzaToEdit ? "Update Pizza" : "Add Pizza"}
-        </Button>
+        <Row>
+          <Col>
+            <Form.Group>
+              <Form.Label className = "whiteText">Pizza Base</Form.Label>
+              <Form.Select
+                name="baseType"
+                value={formValues.baseType}
+                onChange={(event) => handleBaseTypeChange(event)}
+                >
+                <option value="regular">
+                  Regular (£{calculateBaseCost("regular").toFixed(2)})
+                </option>
+                <option value="thincrust">
+                  Thin Crust (£{calculateBaseCost("thincrust").toFixed(2)})
+                </option>
+                <option value="deeppan">
+                  Deep Pan (£{calculateBaseCost("deeppan").toFixed(2)})
+                </option>
+                <option value="stuffedcrust">
+                  Stuffed Crust (£{calculateBaseCost("stuffedcrust").toFixed(2)})
+                </option>
+              </Form.Select>
+            </Form.Group>
+            <Form.Group>
+              <Form.Label className = "whiteText">Pizza Toppings</Form.Label>
+              <ToppingsList
+                toppings={formValues.toppings}
+                decreaseTopping={decreaseTopping}
+                increaseTopping={increaseTopping}
+                />
+            </Form.Group>
+          </Col>
+          <Col>
+            <CreatePizzaSummary pizza={formValues} />
+            <Button
+              type="submit"
+              onClick={(event) => addToBasket(event, formValues)}
+              >
+              {pizzaToEdit ? "Update Pizza" : "Add Pizza"}
+            </Button>
+          </Col>
+        </Row>
       </Form>
     </Container>
   );
