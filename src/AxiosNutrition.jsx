@@ -5,6 +5,7 @@ import { Spinner, Table } from "react-bootstrap";
 
 import { listOfBaseTypes, listOfToppings } from "./basesAndToppingsConfig";
 import { getTotalNutritionalValue } from "./nutritionalValue";
+import { apiKey } from "./apiKey.js";
 import "./AxiosNutrition.css";
 
 
@@ -39,7 +40,7 @@ const AxiosNutrition = ({ pizza }) => {
       .get("https://api.calorieninjas.com/v1/nutrition?query=" + getToppingsParams(), {
         headers: {
           "X-Api-Key":
-            "jnN77X77WdMZgBmftes4UA==kMRoUy2dMYuIgY5O"
+            apiKey.key
         },
       })
       .then(({ data }) => {
