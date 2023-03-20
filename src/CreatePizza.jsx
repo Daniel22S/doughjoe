@@ -95,13 +95,13 @@ const CreatePizza = ({
       changePizzaToEdit();
       changeFormValues({ ...defaultPizza });
       toastr["success"]("Pizza Updated!");
-      navigate(`/basket`);
+      navigate(`/doughjoe-pizza/basket`);
     } else {
       changeBasket([...basket, { ...formValues, id: uuidv4() }]);
       localStorage.setItem("basket", JSON.stringify([...basket, formValues]));
       changeFormValues({ ...defaultPizza });
       toastr["success"]("Pizza Added to Basket!");
-      navigate(`/`);
+      navigate(`/doughjoe-pizza`);
     }
   };
 

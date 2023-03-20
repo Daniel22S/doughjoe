@@ -11,7 +11,7 @@ const Basket = ({ basket, changeBasket, changePizzaToEdit }) => {
     event.preventDefault();
     const pizzaToEdit = pizza;
     changePizzaToEdit(pizzaToEdit);
-    navigate(`/createpizza`);
+    navigate(`/doughjoe-pizza/createpizza`);
   };
 
   const onRemoveClickHandler = (id, event) => {
