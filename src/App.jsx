@@ -42,7 +42,7 @@ const App = () => {
               Create Pizza
             </Link>
             <Link className="nav-link" to="/doughjoe-pizza/basket">
-              Basket
+              Basket ({Object.keys(basket).length})
             </Link>
             <Link className="nav-link" to="/doughjoe-pizza/Checkout">
               Checkout
