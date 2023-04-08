@@ -1,4 +1,4 @@
-import { getTotalNutritionalValue } from "./nutritionalvalue";
+import { getTotalNutritionalValue } from "./nutritionalValue";
 
 const fakeData = [
   {

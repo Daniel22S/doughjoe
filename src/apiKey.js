@@ -1,3 +1,3 @@
 export const apiKey = {
-    key: "jnN77X77WdMZgBmftes4UA==kMRoUy2dMYuIgY5O"
+    key: "ZsbKRzqx1y33WCNqHxnVEosg9yjNyzPCHoO9KsSS==kMRoUy2dMYuIgY5O"
   };
