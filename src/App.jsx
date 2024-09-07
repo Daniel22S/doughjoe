@@ -50,7 +50,7 @@ const App = () => {
           </Nav>
         </Navbar.Collapse>
             <Navbar.Text >
-              <small><a className="portfolio-link" href="https://danmsto.github.io/portfolio">My Portfolio</a> </small>
+              <small><a className="portfolio-link" href="https://danmsto.github.io">My Portfolio</a> </small>
             </Navbar.Text>
       </Navbar>
 
